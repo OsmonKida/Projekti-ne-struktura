@@ -24,12 +24,12 @@ public class TimerApp {
       nese sekondat jane 60 atehere i incrementon minutat
       dhe sekondat i ben 0
      */
-   public void increment() {             // i incrementon sekondat per 1
+   public void increment() { // i incrementon sekondat per 1
+      Seconds++;
       if(Seconds == 60) {
          Minutes++;
          Seconds = 0;
       }
-      Seconds++;
    }
    /** getString kthen minutat dhe sekondat ne nje string. 
     */ 
