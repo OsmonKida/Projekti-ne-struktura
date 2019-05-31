@@ -125,9 +125,7 @@ public class TimerCount {
    
    private void startTheTimer() { //e starton timerin.
       if(Option == 0) {
-         if(a.getSeconds() == 0 && a.getMinutes() == 0){   
-            countUp();
-         }   
+         countUp(); 
       }      
       if(Option == 1) {
          if(a.getSeconds() == 0 && a.getMinutes() == 0) {
